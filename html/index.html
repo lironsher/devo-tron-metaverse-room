@@ -26,6 +26,7 @@
     <item id="TronFloor" src="./assets/3DModels/floorMesh.gltf">
     <item id="logo" src="./assets/3DModels/oLogo.gltf">
     <item id="larryFrame" src="./assets/3DModels/larry.gltf">
+    <item id="car" src="./assets/3DModels/911.gltf"></item>
     <audio id="bgSoundtrack" src="./assets/Audio/tronDay.m4v" preload="auto"></audio>
     </a-assets>
     <!-- asset loader END -->
@@ -35,7 +36,8 @@
     <a-entity id="3dFloor" gltf-model="#TronFloor" rotation="0 0 0" position="0 0.01 0" scale="0.1 0.1 0.1"></a-entity>
     <a-entity id="ologo" gltf-model="#logo" rotation="90 0 0" position="0 10 0" scale="1 1 1" animation="property: rotation;from : 90 90 0; to: 90 450 0; loop: true;easing: linear; dur: 100000"></a-entity>
     <a-entity id="larryFrame" gltf-model="#larryFrame" rotation="-90 90 0" position="28 2 0" scale="1 1 1" animation="property: position;from : 30 2 -30; to: 30 2 30; loop: true;easing: linear; dur: 100000"></a-entity>
-    </a-entity>
+    <a-entity id="car" gltf-model="#car" rotation="-90 90 0" position="82 2 0" scale="1 1 1" animation="property: position;from : 30 2 -30; to: 30 2 30; loop: true;easing: linear; dur: 100000"></a-entity>
+</a-entity>
     <!-- 3D asset scene placement END -->
     
     <!-- primitives placement START -->
